@@ -1,16 +1,16 @@
 {
-    "name": "konekt/pdf-invoice",
+    "name": "abytemore/pdf-invoice",
     "description": "Library to generate PDF invoices",
     "type": "library",
     "license": "GPL-2.0-or-later",
-    "keywords": ["invoice", "pdf", "konekt", "artkonekt"],
+    "keywords": ["invoice", "pdf", "abytemore"],
     "support": {
-        "source": "https://github.com/artkonekt/pdf-invoice"
+        "source": "https://github.com/abytemore/pdf-invoice"
     },
     "authors": [
         {
-            "name": "Attila Fulop",
-            "homepage": "https://github.com/fulopattila122"
+            "name": "Ronald Mitterer",
+            "homepage": "https://www.abytemore.com"
         }
     ],
     "require": {
@@ -23,11 +23,11 @@
         "phpunit/phpunit": "~5.0"
     },
     "autoload": {
-        "psr-4": { "Konekt\\PdfInvoice\\": "src/" }
+        "psr-4": { "abytemore\\PdfInvoice\\": "src/" }
     },
     "autoload-dev": {
         "psr-4": {
-            "Konekt\\PdfInvoice\\Tests\\": "tests/"
+            "abytemore\\PdfInvoice\\Tests\\": "tests/"
         }
     },
     "extra": {
