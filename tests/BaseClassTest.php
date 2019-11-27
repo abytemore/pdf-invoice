@@ -10,7 +10,7 @@
  */
 
 
-namespace Konekt\PdfInvoice\Tests;
+namespace abytemore\PdfInvoice\Tests;
 
 
 use Konekt\PdfInvoice\InvoicePrinter;
